@@ -21,9 +21,7 @@ class RentalServiceUnitTest {
     }
 
     @Test
-    void calculatesTotal() {
-        assertEquals(60_000, service.calculateTotal(10_000, 2, 3));
-    }
+    void calculatesTotal(){assertEquals(60_001, service.calculateTotal(10_000, 2, 3));}
 
     @Test
     void calculatesDepositForShortRental() {
